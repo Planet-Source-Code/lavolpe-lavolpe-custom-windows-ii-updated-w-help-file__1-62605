@@ -1,0 +1,157 @@
+:Base LaVolpeCW32.hlp
+:Title LaVolpeCW32
+1 Overview
+2 *Overview=*Overview
+2 Compiling the DLL=Compiling_the_DLL
+1 Classes
+2 CustomWindow
+3 AlwaysOnTop=AlwaysOnTop
+3 AmIActive=AmIActive
+3 AppIcon=AppIcon
+3 BeginCustomize=BeginCustomize
+3 ExportCustomSettings=ExportCustomSettings
+3 ForwardMessage=ForwardMessage
+3 Frame=Frame
+3 Graphics=Graphics
+3 ImportCustomSettings=ImportCustomSettings
+3 isOwnerDrawn=isOwnerDrawn
+3 MaximizeFullScreen=MaximizeFullScreen
+3 MenuBar=MenuBar
+3 MessagesAdd=MessagesAdd
+3 MessagesRemove=MessagesRemove
+3 MinimizeToSysTray=MinimizeToSysTray
+3 noRedraw=noRedraw
+3 OwnerDrawn=OwnerDrawn
+3 RefreshWindow=RefreshWindow
+3 ResetToSystemDefaults=ResetToSystemDefaults
+3 SetKeepActive=SetKeepActive
+3 ShowOnTaskbar=ShowOnTaskbar
+3 Subclass OtherWindow=Subclass_OtherWindow
+3 Titlebar=Titlebar
+3 UnSubclass OtherWindow=UnSubclass_OtherWindow
+3 Frame
+4 Active-Inactive [Frame]=Active-Inactive_[Frame]
+4 AddTrackingRect=AddTrackingRect
+4 AllowExtendedMove=AllowExtendedMove
+4 BorderHeight [Frame]=BorderHeight_[Frame]
+4 BorderWidth [Frame]=BorderWidth_[Frame]
+4 GetInsetOffset=GetInsetOffset
+4 GetTrackingRect=GetTrackingRect
+4 MinMax=MinMax
+4 RemoveSystemTray=RemoveSystemTray
+4 RemoveTrackingRect=RemoveTrackingRect
+4 SetInsetOffset=SetInsetOffset
+4 SystemTray=SystemTray
+4 Active-Inactive
+5 BackColor=BackColor
+5 GetBorderColors [Frame]=GetBorderColors_[Frame]
+5 GetInsetBackColor=GetInsetBackColor
+5 GetInsetImage=GetInsetImage
+5 SetBorderColors [Frame]=SetBorderColors_[Frame]
+5 SetInsetBackColor=SetInsetBackColor
+5 SetInsetImage=SetInsetImage
+4 MinMax
+5 MaxDragSize=MaxDragSize
+5 MaximizedSizePos=MaximizedSizePos
+5 MinDragSize=MinDragSize
+4 SystemTray
+5 ActivateTray=ActivateTray
+5 BalloonMessage=BalloonMessage
+5 BalloonTitle=BalloonTitle
+5 DestroyTrayIcon=DestroyTrayIcon
+5 HideBalloon=HideBalloon
+5 Icon=Icon
+5 isActive=isActive
+5 isBalloonCapable=isBalloonCapable
+5 ShowBalloon=ShowBalloon
+5 Tip=Tip
+3 Graphics
+4 ConvHandleToStdPic=ConvHandleToStdPic
+4 CreateBitmapAndDC=CreateBitmapAndDC
+4 DrawButtonShape=DrawButtonShape
+4 DrawImageIcon=DrawImageIcon
+4 DrawLine=DrawLine
+4 DrawPolyLine=DrawPolyLine
+4 DrawRect=DrawRect
+4 GradientFillEx=GradientFillEx
+4 GrayScale Color=GrayScale_Color
+4 GrayScale DC=GrayScale_DC
+4 GrayScale Image=GrayScale_Image
+4 ImageFillEx=ImageFillEx
+4 TextDrawEx=TextDrawEx
+4 TextMeasureEx=TextMeasureEx
+3 MenuBar
+4 Active-Inactive [MenuBar]=Active-Inactive_[MenuBar]
+4 Alignment [MenuBar]=Alignment_[MenuBar]
+4 BorderHeight [MenuBar]=BorderHeight_[MenuBar]
+4 BorderWidth [MenuBar]=BorderWidth_[MenuBar]
+4 Font [MenuBar]=Font_[MenuBar]
+4 HideDisabledItems=HideDisabledItems
+4 ShowMenuBar=ShowMenuBar
+4 Active-Inactive
+5 BackStyle [MenuBar]=BackStyle_[MenuBar]
+5 GetBackColors [MenuBar]=GetBackColors_[MenuBar]
+5 GetDisabledTextColors=GetDisabledTextColors
+5 GetEnabledTextColors=GetEnabledTextColors
+5 GetFrame [MenuBar]=GetFrame_[MenuBar]
+5 GetImageBackground [MenuBar]=GetImageBackground_[MenuBar]
+5 GetMenuSelectionStyle=GetMenuSelectionStyle
+5 SetBackColors [MenuBar]=SetBackColors_[MenuBar]
+5 SetDisabledTextColors=SetDisabledTextColors
+5 SetEnabledTextColors=SetEnabledTextColors
+5 SetFrame [MenuBar]=SetFrame_[MenuBar]
+5 SetImageBackground [MenuBar]=SetImageBackground_[MenuBar]
+5 SetMenuSelectionStyle=SetMenuSelectionStyle
+3 TitleBar
+4 Active-Inactive [TitleBar]=Active-Inactive_[TitleBar]
+4 Alignment [TitleBar]=Alignment_[TitleBar]
+4 BorderHeight [TitleBar]=BorderHeight_[TitleBar]
+4 BorderWidth [TitleBar]=BorderWidth_[TitleBar]
+4 Buttons=Buttons
+4 Caption=Caption
+4 Font [TitleBar]=Font_[TitleBar]
+4 ShowTitlebar=ShowTitlebar
+4 WrapCaption=WrapCaption
+4 Active-Inactive
+5 BackStyle [TitleBar]=BackStyle_[TitleBar]
+5 GetBackColors [TitleBar]=GetBackColors_[TitleBar]
+5 GetFrame [Titlebar]=GetFrame_[Titlebar]
+5 GetImageBackground [TitleBar]=GetImageBackground_[TitleBar]
+5 GetTextColors [TitleBar]=GetTextColors_[TitleBar]
+5 SetBackColors [TitleBar]=SetBackColors_[TitleBar]
+5 SetFrame [TitleBar]=SetFrame_[TitleBar]
+5 SetImageBackground [TitleBar]=SetImageBackground_[TitleBar]
+5 SetTextColors [TitleBar]=SetTextColors_[TitleBar]
+4 Buttons
+5 Active-Inactive [Buttons]=Active-Inactive_[Buttons]
+5 AddButton=AddButton
+5 EnableSysMenuItem=EnableSysMenuItem
+5 EnableUserButton=EnableUserButton
+5 HideDisabledButtons=HideDisabledButtons
+5 ModifyButtonTip=ModifyButtonTip
+5 PositionButton=PositionButton
+5 RemoveButton=RemoveButton
+5 RotateSystemIcon=RotateSystemIcon
+5 SystemIconMenu=SystemIconMenu
+5 Active-Inactive
+6 GetBorderColors [Buttons]=GetBorderColors_[Buttons]
+6 GetForeColors=GetForeColors
+6 SetBorderColors [Buttons]=SetBorderColors_[Buttons]
+6 SetForeColors=SetForeColors
+2 Interfaces/Implementations
+3 iOwnerDrawn=iOwnerDrawn
+3 omMeasureMenuItem Owner Draw Message=omMeasureMenuItem_Owner_Draw_Message
+3 omDrawMenuItem  Owner Draw Message=omDrawMenuItem__Owner_Draw_Message
+3 omDrawUserBtn  Owner Draw Message=omDrawUserBtn__Owner_Draw_Message
+3 omDrawSysBtn  Owner Draw Message=omDrawSysBtn__Owner_Draw_Message
+3 omDrawMBarBkg  Owner Draw Message=omDrawMBarBkg__Owner_Draw_Message
+3 omDrawTBarBkg  Owner Draw Message=omDrawTBarBkg__Owner_Draw_Message
+3 omDrawPostNC  Owner Draw Message=omDrawPostNC__Owner_Draw_Message
+3 omDrawPreNC  Owner Draw Message=omDrawPreNC__Owner_Draw_Message
+3 omDrawTrackRect  Owner Draw Message=omDrawTrackRect__Owner_Draw_Message
+3 omTrackCursor  Owner Draw Message=omTrackCursor__Owner_Draw_Message
+3 omUserBtnClick  Owner Draw Message=omUserBtnClick__Owner_Draw_Message
+3 omTrackClick  Owner Draw Message=omTrackClick__Owner_Draw_Message
+3 iControlsCallback=iControlsCallback
+3 iCoreMessages=iCoreMessages
+3 iSysTrayCallback=iSysTrayCallback
